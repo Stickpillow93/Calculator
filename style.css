@@ -1,0 +1,31 @@
+button {
+  width: 5vw;
+  height: 5vw;
+  font-size: 2vw;
+  border-radius: 10%;
+  border: 0px, 0px, 0px, 0px;
+  background-color: rgb(32, 207, 99);
+}
+
+#container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 5vw);
+  grid-gap: 0.2vw;
+}
+
+#input {
+  grid-column: 1 / 5;
+  font-size: 2vw;
+  margin-left: 170px;
+}
+
+#submit {
+  grid-column: span 4;
+  width: 100%;
+}
+
+body {
+  background-color: whitesmoke;
+}

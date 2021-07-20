@@ -18,7 +18,6 @@ button {
 #input {
   grid-column: 1 / 5;
   font-size: 2vw;
-  margin-left: 170px;
 }
 
 #submit {

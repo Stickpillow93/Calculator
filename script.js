@@ -14,6 +14,7 @@ let againNum = 0;
 let need = false;
 let bruh = 0;
 let backs = 0;
+nextLine = 1;
 
 function number1() {
   if (submitDone === 0) {

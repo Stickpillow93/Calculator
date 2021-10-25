@@ -299,13 +299,13 @@ function del() {
   if (submitDone === 0) {
     if (allowedTODel === 0) {
       inputEl.textContent = inputEl.textContent.slice(0, -1);
-      numbers--
+      numbers = numbers - 1
     }
   }
   if (submitDone === 2) {
     if (allowedTODel === 0) {
       inputEl.textContent = inputEl.textContent.slice(0, -1);
-      numbers--
+      numbers = nuumbers - 1
     }
   }
 }

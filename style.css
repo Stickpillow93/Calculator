@@ -14,7 +14,7 @@ button {
 
 #container {
   display: grid;
-  justify-content: left;
+  justify-content: center;
   grid-template-columns: clamp(80px, 3vw, 100px);
   grid-template-rows: clamp(80px, 3vw, 100px);
 }

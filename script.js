@@ -56,7 +56,7 @@ function addition() {
   allowed = true;
 }
 
-function subtraction() {
+function subtract() {
   inputEl.value += "-";
   allowed = true;
 }
